@@ -1,0 +1,59 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirbmrrobot.txt~
+START_TIME: Mon Dec 28 15:53:10 2020
+URL_BASE: http://10.10.54.86/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.54.86/ ----
+==> DIRECTORY: http://10.10.54.86/0/
+==> DIRECTORY: http://10.10.54.86/admin/
++ http://10.10.54.86/atom (CODE:301|SIZE:0)
+==> DIRECTORY: http://10.10.54.86/audio/
+==> DIRECTORY: http://10.10.54.86/blog/
+==> DIRECTORY: http://10.10.54.86/css/
++ http://10.10.54.86/dashboard (CODE:302|SIZE:0)
++ http://10.10.54.86/favicon.ico (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.54.86/feed/
+==> DIRECTORY: http://10.10.54.86/image/
+==> DIRECTORY: http://10.10.54.86/Image/
+==> DIRECTORY: http://10.10.54.86/images/
++ http://10.10.54.86/index.html (CODE:200|SIZE:1188)
++ http://10.10.54.86/index.php (CODE:301|SIZE:0)
++ http://10.10.54.86/intro (CODE:200|SIZE:516314)
+==> DIRECTORY: http://10.10.54.86/js/
++ http://10.10.54.86/license (CODE:200|SIZE:309)
++ http://10.10.54.86/login (CODE:302|SIZE:0)
++ http://10.10.54.86/page1 (CODE:301|SIZE:0)
++ http://10.10.54.86/phpmyadmin (CODE:403|SIZE:94)
++ http://10.10.54.86/rdf (CODE:301|SIZE:0)
++ http://10.10.54.86/readme (CODE:200|SIZE:64)
++ http://10.10.54.86/robots (CODE:200|SIZE:41)
++ http://10.10.54.86/robots.txt (CODE:200|SIZE:41)
++ http://10.10.54.86/rss (CODE:301|SIZE:0)
++ http://10.10.54.86/rss2 (CODE:301|SIZE:0)
++ http://10.10.54.86/sitemap (CODE:200|SIZE:0)
++ http://10.10.54.86/sitemap.xml (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.54.86/video/
+==> DIRECTORY: http://10.10.54.86/wp-admin/
++ http://10.10.54.86/wp-config (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.54.86/wp-content/
++ http://10.10.54.86/wp-cron (CODE:200|SIZE:0)
+==> DIRECTORY: http://10.10.54.86/wp-includes/
++ http://10.10.54.86/wp-links-opml (CODE:200|SIZE:227)
++ http://10.10.54.86/wp-load (CODE:200|SIZE:0)
++ http://10.10.54.86/wp-login (CODE:200|SIZE:2657)
++ http://10.10.54.86/wp-mail (CODE:500|SIZE:3064)
++ http://10.10.54.86/wp-settings (CODE:500|SIZE:0)
++ http://10.10.54.86/wp-signup (CODE:302|SIZE:0)
++ http://10.10.54.86/xmlrpc (CODE:405|SIZE:42)
++ http://10.10.54.86/xmlrpc.php (CODE:405|SIZE:42)
